@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scriptPrincipal.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bienvenido a la Página Principal</h1>
+        <p id="greeting"></p>
+
+        <p>Esta es la página principal de nuestra aplicación. Aquí encontrarás acceso a:</p>
+        <ul>
+            <li><strong>Página Principal:</strong> Navega de vuelta a esta página.</li>
+            <li><strong>Página API:</strong> Explora información consumida desde una API externa.</li>
+            <li><strong>Página Formulario:</strong> Completa y envía un formulario de ejemplo.</li>
+            <li><strong>Página de Operaciones:</strong> Realiza cálculos y operaciones útiles.</li>
+        </ul>
+
+        <div class="button-container">
+            <button onclick="navigateTo('paginaPrincipal.html')">Página Principal</button>
+            <button onclick="navigateTo('paginaAPI.html')">Página API</button>
+            <button onclick="navigateTo('paginaFormulario.html')">Página Formulario</button>
+            <button onclick="navigateTo('paginaOperaciones.html')">Página Operaciones</button>
+        </div>
+    </div>
+</body>
+
+</html>

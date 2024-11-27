@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1e293b;
+    /* Color primario */
+    color: #f8fafc;
+    /* Color secundario */
+}
+
+.container {
+    background: #f1f5f9;
+    /* Fondo del contenedor */
+    color: #0f172a;
+    /* Texto del contenedor */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #2563eb;
+    /* Título */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #1e293b;
+    /* Etiquetas */
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #d1d5db;
+    /* Borde */
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #22c55e;
+    /* Botón primario */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #16a34a;
+    /* Hover del botón */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button-container button {
+    flex: 1;
+    margin: 0 5px;
+    background-color: #007bff;
+    /* Botón azul */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+    /* Azul oscuro al pasar el mouse */
+}
+
+#notification {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ef4444;
+    /* Notificaciones de error */
+}

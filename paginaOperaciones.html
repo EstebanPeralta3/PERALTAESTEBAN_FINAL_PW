@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Operaciones</title>
+    <link rel="stylesheet" href="paginaOperaciones.css">
+    <script src="paginaOperaciones.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Operaciones</h1>
+        <table id="operationsTable">
+            <thead>
+                <tr>
+                    <th class="animated">Operación</th>
+                    <th class="animated">Descripción</th>
+                    <th class="animated">Botones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Total Productos</td>
+                    <td>Calcular el precio total de un producto según su cantidad.</td>
+                    <td><button class="calcButton" data-operation="total">Calcular</button></td>
+                </tr>
+                <tr>
+                    <td>Porcentaje</td>
+                    <td>Calcular el 30% de un producto.</td>
+                    <td><button class="calcButton" data-operation="percentage">Calcular</button></td>
+                </tr>
+                <tr>
+                    <td>Descuento</td>
+                    <td>Calcular el precio con un 25% de descuento.</td>
+                    <td><button class="calcButton" data-operation="discount">Calcular</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="button-container">
+            <button onclick="navigateTo('paginaPrincipal.html')">Página Principal</button>
+            <button onclick="navigateTo('paginaAPI.html')">Página API</button>
+            <button onclick="navigateTo('paginaFormulario.html')">Página Formulario</button>
+            <button onclick="navigateTo('paginaOperaciones.html')">Página Operaciones</button>
+        </div>
+    </div>
+</body>
+
+</html>
